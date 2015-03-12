@@ -1,4 +1,9 @@
-.btn:hover {background-color: orange;}
+.btn:hover {
+	background-color: orange;
+}
 
-.btn { background-color: rgba(255,0,0,.4);}
+.btn {
+	background-color: rgba(255,0,0,.4);
+	color: black;
+}
 
