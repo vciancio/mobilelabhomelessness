@@ -197,7 +197,13 @@ img {
 	max-height: 100%;
 }
 
+#email {
+	width: 20%;
+}
 
+#name {
+	width: 20%;
+}
 
 input[type="submit"] {
 	width: 100px;
