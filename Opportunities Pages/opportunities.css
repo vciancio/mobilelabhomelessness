@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 html, body {
 
 	background: #F6F6F6;
@@ -71,7 +76,7 @@ html, body {
 	box-shadow: 5px 5px 5px black;
 	margin-left: auto;
 	margin-right: auto;
-	background: #B2B2B2;
+	background: #E0E0E0;
 	padding: 4%;
 }
 
@@ -110,11 +115,11 @@ html, body {
 	line-height: normal;
 }
 
-#HL-Res, #Org-Res, #Vol-Res {
+
+#HL-Res {
 	float: left;
 	clear: both;
 }
-
 
 img {
 	max-width: 100%;
@@ -126,8 +131,7 @@ input[type="text"] {
 	display: block;
 	height: 20px;
 	margin: 0 auto;
-	border-radius: 8px;
-	color: #F6F6F6;
+	border-radius: 5px;
 }
 
 input[type="submit"] {
@@ -136,6 +140,7 @@ input[type="submit"] {
 	float: right;
 	margin-right: 4%;
 	border-radius: 4px;
+	background-color: rgba(255,71,71,.85);
 }
 
 input[type="submit"]:hover {
@@ -150,3 +155,15 @@ textarea {
 	height: 45%;
 	margin: 0 auto;
 	border-radius: 5px;
+}
+
+/*Javascript*/
+
+.nav-padding {
+    /*padding-top: 40px;*/
+}
+
+.sticky {
+    position:fixed;
+    top:0;
+}
