@@ -197,13 +197,7 @@ img {
 	max-height: 100%;
 }
 
-input[type="text"] {
-/*	width: 40%;    */
-	display: block;
-	height: 20px;
-	margin: 0 auto;
-	border-radius: 5px;
-}
+
 
 input[type="submit"] {
 	width: 100px;
@@ -219,15 +213,6 @@ input[type="submit"]:hover {
 	background-color: rgba(247, 185, 12, .6);
 }
 
-textarea {
-	
-	font-family: sans-serif;
-	/*width: 40%; */
-	display: block;
-	height: 45%;
-	margin: 0 auto;
-	border-radius: 5px;
-}
 
 /*Javascript*/
 
