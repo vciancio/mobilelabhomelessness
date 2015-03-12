@@ -198,7 +198,7 @@ img {
 }
 
 input[type="text"] {
-	width: 40%;
+/*	width: 40%;    */
 	display: block;
 	height: 20px;
 	margin: 0 auto;
@@ -222,7 +222,7 @@ input[type="submit"]:hover {
 textarea {
 	
 	font-family: sans-serif;
-	width: 40%;
+	/*width: 40%; */
 	display: block;
 	height: 45%;
 	margin: 0 auto;
