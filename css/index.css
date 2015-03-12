@@ -27,6 +27,18 @@ html, body {
 	margin-bottom: 2%;
 }
 
+.mainPageText{
+        font-size: 30px;
+        padding-top: 10%;
+}
+
+.mainPageRow{
+        padding-bottom: 10%;
+}
+
+p{
+  font-size: 25px;
+}
 
 /**************Homepage******************/
 
