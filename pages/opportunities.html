@@ -1,5 +1,7 @@
+<link rel="stylesheet" type="text/css" href="css/opportunities.css">
+
 <div id="wrapper">				
-	<div id="OppWrapper">
+	<div class="cardWrapper">
 		<div id="experience"><h1 style="text-align:center">Opportunities at the Mobile Lab</h1></div>
 		<br/><br/>
 		
@@ -22,13 +24,20 @@
 			<!-- Org Entry Form -->
 			<form role="form">
 				<div class="form-group">
-					<label for="org">Organization Name:
-			<div class="form">
-				<input type="text" name="org" placeholder="Organization"><br/>
-				<input type="text" name="org-contact" placeholder="Email"><br/>
-				<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea><br/>
-				<form method="link" action="confirmation.html"><input type="submit" value="Submit" /></form>
-			</div>
+					<label for="org">Organization Name: </label>
+					<input type="org" class="form-control" id="org" placeholder="Enter Your Organization Name">
+				</div>
+				<div class="form-group">
+					<label for="orgemail">Email: </label>
+					<input type="orgemail" class="form-control" id="orgemail" placeholder="Enter Email">
+				</div>
+				<div class="form-group">
+					<label for="orgproj">Projects:</label>
+					<input type="orgproj" class="form-control" id="orgproj" 
+					placeholder="Project(s) interested in being a part of">
+				</div>
+				<a href="confirmation.html" class="btn" role="button">Submit</a>
+			</form>
 		</div>
 		
 		<div class="col-md-4">
@@ -40,17 +49,24 @@
 			<p>If you would like to receive information regarding volunteer opportunities, please leave your contact information.
 				You will be notified of opportunities that you may be interested in that are in your area.
 			</p>
-			<br/><br/>
+			<br/>
 			<!-- Vol Entry Form -->
-			<div class="form">
-				<input type="text" name="vol-name" placeholder="Name"><br/>
-				<input type="text" name="vol-email" placeholder="Email"><br/>
-				<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea>
-				<br/>
-				<form method="link" action="confirmation.html">
-				<input type="submit" value="Submit" />
-				</form>
-			</div>
+			<form role="form">
+				<div class="form-group">
+					<label for="vol">Name:</label>
+					<input type="vol" class="form-control" id="vol" placeholder="Enter Your Name">
+				</div>
+				<div class="form-group">
+					<label for="volemail">Email:</label>
+					<input type="volemail" class="form-control" id="volemail" placeholder="Enter Your Email">
+				</div>
+				<div class="form-group">
+					<label for="volproj">Projects:</label>
+					<input type="volproj" class="form-control" id="volproj" 
+					placeholder="Project(s) interested in being a part of">
+				</div>
+				<a href="confirmation.html" class="btn" role="button">Submit</a>
+			</form>
 		</div>
 		
 		<div class="col-md-4">
@@ -65,17 +81,25 @@
 			</p>
 			<br/><br/>
 			<!-- HL Entry Form -->
-			<div class="form">
-				<input type="text" name="hl-name" placeholder="Name"><br/>
-				<input type="text" name="pnumber" placeholder="Phone Number"><br/>
-				<input type="text" name="hl-email" placeholder="Email"><br/>
-				<form method="link" action="confirmation.html">
-				<input type="submit" value="Submit" />
-				</form>
-			</div>
+			<form role="form">
+				<div class="form-group">
+					<label for="ss">Name:</label>
+					<input type="ss" class="form-control" id="ss" placeholder="Enter Your Name">
+				</div>
+				<div class="form-group">
+					<label for="ssemail">Email:</label>
+					<input type="ssemail" class="form-control" id="ssemail" placeholder="Enter Your Email">
+				</div>
+				<div class="form-group">
+					<label for="ssphone">Phone Number:</label>
+					<input type="ssphone" class="form-control" id="ssphone" 
+					placeholder="Enter Your Phone Number">
+				</div>
+				<a href="confirmation.html" class="btn" role="button">Submit</a>
+			</form>
 		</div>
 		</row>
-		
+
 		<!-- Info for Seeking Services -->
 		<row>
 		<div class="row-md-8">
