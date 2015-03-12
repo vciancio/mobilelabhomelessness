@@ -16,6 +16,17 @@ html, body {
 	width: 100%;
 }
 
+.cardWrapper {
+	width: 85%;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	background: #E0E0E0;
+	padding: 4%;
+	margin-bottom: 2%;
+}
+
 
 /**************Homepage******************/
 
@@ -132,24 +143,10 @@ a:visited{
 a:hover{
 	color: orange;
 }
-#aboutWrapper {
-	width: 85%;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px black;
-	margin-left: auto;
-	margin-right: auto;
-	background: #E0E0E0;
-	padding: 4%;
-	margin-bottom: 2%;
-}
-
-
 
 /***************END ABOUT US***************/ 
 
 /*****opportunities page*****///
-
-
 
 #experience {
 	text-align: center;
@@ -237,20 +234,6 @@ textarea {
 .sticky {
     position:fixed;
     top:0;
-}
-
-
-#OppWrapper {
-	width: 85%;
-	min-height: 100px;
-	overflow: hidden;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px black;
-	margin-left: auto;
-	margin-right: auto;
-	background: #E0E0E0;
-	padding: 4%;
-	margin-bottom: 2%;
 }
 
 /*********end opp page***********/
