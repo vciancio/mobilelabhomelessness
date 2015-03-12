@@ -1,2 +1,4 @@
-.btn-danger:hover {color: red}
+.btn:hover {background-color: orange;}
+
+.btn { background-color: rgba(255,0,0,.4);}
 
