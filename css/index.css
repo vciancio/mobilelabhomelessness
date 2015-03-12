@@ -1,8 +1,7 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-
 html, body {
 
 	background: #F6F6F6;
@@ -18,10 +17,56 @@ html, body {
 }
 
 
+/**************Homepage******************/
+
+.homepageBox {
+	width: 210px;
+	height: 180px;
+	float: left;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+#leftBox {
+	float: left;
+	width: 45%;
+	margin-top: 8%;
+}
+
+#rightBox {
+	float: right;
+	width: 45%;
+	margin-top: 8%;
+}
+
+#imagesBoxes {
+	float: left;
+	width: 45%;
+}
+
+#textRight {
+	float: right;
+	width: 45%;
+	margin-left: 10%;
+	}
+
+#rightBoxRight {
+	float: right;
+	width: 45%;
+}
+
+#rightBoxLeft {
+	float: left;
+	padding-top: 3%;
+	width: 40%;
+	padding-left: 10%;
+	text-align: right;
+	padding-bottom: 8%;
+}
+
 
 /**********horizontal nav bar***************/
 #nav {
-	margin: 0;
 	top: 0;
 	font-size: 16px;
 	width: 100%;
@@ -65,20 +110,46 @@ html, body {
 
 /*********end of horizontal nav bar ******************/
 
+/**************ABOUT US******************/
+
+.aboutUsPics {
+    float: left;
+    width: 330px;
+    height: 300px;
+    margin: 5px;
+}
 
 
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
 
-#roundedWrapper {
-	width: 75%;
-	min-height: 100px;
-	overflow: hidden;
+a:hover{
+	color: orange;
+}
+#aboutWrapper {
+	width: 85%;
 	border-radius: 15px;
 	box-shadow: 5px 5px 5px black;
 	margin-left: auto;
 	margin-right: auto;
 	background: #E0E0E0;
 	padding: 4%;
+	margin-bottom: 2%;
 }
+
+
+
+/***************END ABOUT US***************/ 
+
+/*****opportunities page*****///
+
+
 
 #experience {
 	text-align: center;
@@ -167,3 +238,20 @@ textarea {
     position:fixed;
     top:0;
 }
+
+
+#OppWrapper {
+	width: 85%;
+	min-height: 100px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	background: #E0E0E0;
+	padding: 4%;
+	margin-bottom: 2%;
+}
+
+/*********end opp page***********/
+
