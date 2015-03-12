@@ -1,113 +1,77 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Mobile Lab: Homelessness</title>
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script src="scroll.js" type="text/javascript"> </script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script>
-		</script>
-	</head>
-	<body> 
-		<div id="wrapper">	
-			<div style="height: 100vh; padding: 4%; padding-right: 6%; background: url('backgroundHome.png') no-repeat; background-size: cover"/> 
+<head>
+	<title>Mobile Lab: Homelessness</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="scroll.js" type="text/javascript"> </script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script> 
+	$(function(){
+		$("#aboutPage").load("pages/about.html");
+		$("#oppPage").load("pages/opportunities.html");
+		$("#meetPage").load("pages/meettheteam.html");
+	});
+	</script> 
+</head>
+<body>
 
-		<p style="margin-left: 50%; margin-top: -2%; margin-bottom: 0;font-size: 27px;"> <em> "No one is useless in this world who lightens the burdens of another." - Charles Dickens </em> </p>
-			<div style="width: 100%;background: red; margin-top: -2%;">
-				<div id="leftBox"> 
-					<div id="imagesBoxes">
-						<a href="index.html#aboutWrapper" style="color: black; "><div class="homepageBox"> <img src="homelessness.png"/></div></a><br>
-						<a href="index.html#aboutWrapper"><div class="homepageBox"> <img src="aboutUs.png" /></div><br>
+	<div style="height: 100vh; padding: 4%; padding-right: 6%; background: url('backgroundHome.png') no-repeat; background-size: cover"/> 
+
+	<p style="margin-left: 50%; margin-top: -2%; margin-bottom: 0;font-size: 27px;"> <em> "No one is useless in this world who lightens the burdens of another." - Charles Dickens </em> 
+	</p>
+	<div style="width: 100%;background: red; margin-top: -2%;">
+		<div id="leftBox"> 
+			<div id="imagesBoxes">
+				<a href="index.html#aboutWrapper" style="color: black; ">
+					<div class="homepageBox"> <img src="homelessness.png"/></div></a><br>
+					<a href="index.html#aboutWrapper">
+						<div class="homepageBox"> <img src="aboutUs.png" /></div><br>
 						<div class="homepageBox"> <img src="meetTheTeam.png" /></div><br>
-					</div>
-					<div id="textRight">
-						<br><br>
-
-						<a href="index.html#aboutWrapper"> <p style="margin-bottom: 55%; font-size: 28px">  Homelessness In America</p> </a>
-						 <a href="index.html#aboutWrapper"><p style="margin-bottom: 55%; font-size:28px;"> About The Mobile Lab </p></a>
-						 <p style="font-size: 28px"> Meet the Team </p>
-					</div>
+					</a>
 				</div>
-			
-				<div id="rightBox">
-					<div id="rightBoxRight">
-						<div class="homepageBox"> <img src="opportunities.png" /></div><br>
-						<div class="homepageBox"> <img src="projects.png" /></div><br>
-						<div class="homepageBox"> <img src="contactUs.png" /></div>
-					</div>
-					<div id="rightBoxLeft">
-						<br><br>
-						<p style="margin-bottom: 67%; font-size: 28px">Opportunities</p>
-						<p style="margin-bottom: 67%; font-size:28px; margin-bottom: 79%"> Projects </p>
-						<p style="font-size: 28px;"> Contact Us </p>
-					</div>
+				<div id="textRight">
+					<br><br>
+
+					<a href="index.html#aboutWrapper"> <p style="margin-bottom: 55%; font-size: 28px">  Homelessness In America</p> </a>
+					<a href="index.html#aboutWrapper"><p style="margin-bottom: 55%; font-size:28px;"> About The Mobile Lab </p></a>
+					<p style="font-size: 28px"> Meet the Team </p>
 				</div>
 			</div>
-			
+
+			<div id="rightBox">
+				<div id="rightBoxRight">
+					<div class="homepageBox"> <img src="opportunities.png" /></div><br>
+					<div class="homepageBox"> <img src="projects.png" /></div><br>
+					<div class="homepageBox"> <img src="contactUs.png" /></div>
+				</div>
+				<div id="rightBoxLeft">
+					<br><br>
+					<p style="margin-bottom: 67%; font-size: 28px">Opportunities</p>
+					<p style="margin-bottom: 67%; font-size:28px; margin-bottom: 79%"> Projects </p>
+					<p style="font-size: 28px;"> Contact Us </p>
+				</div>
 			</div>
-			
-			
-			
-			
-			
-			
-				<div id="nav" class="nav">
-
-						<ul> 
-							<li><a href="index.html">Home &nbsp;&nbsp;&nbsp; </a></li>
-							<li><a href="index.html#aboutWrapper">About Us &nbsp;&nbsp;&nbsp; </a>
-							<li><a href="index.html">Homelessness &nbsp;&nbsp;&nbsp; </a></li>
-							<li><a href="index.html#aboutMeWrapper">Our Projects &nbsp;&nbsp;&nbsp; </a>
-							<li><a href="index.html#experience">Opportunities&nbsp;&nbsp; &nbsp;</a>
-							</li>
-							<li><a href="index2.html#experience">Meet The Team&nbsp;&nbsp; &nbsp;</a> </li>
-							<li><a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">Contact Us</a></li>
-						</ul>
-
-				</div>
-				
-				<div id="aboutWrapper">
-				
-					<p style="font-size: 45px; text-align: center; color: #FF4D4D"> About the Mobile Lab </p>
-					<br><br>
-					<figure><img class="aboutUsPics" src="tree.png" style="margin-right: 2%; margin-bottom: 4%;" >
-					<img class="aboutUsPics" src="homelesspic.png" width="330px" height="260px" style="margin-right: 4%;">
-					<img class="aboutUsPics" src="aboutUspic3.png" >
-					<br>
-					<p style="clear: both"><strong>The Mobile Lab is just a branch of all the cool projects the Frugal Innovation Lab is involved in!</strong></p>
-					<br><br>
-					<p style="font-size: 30px; clear: both; color: #FF4D4D"> A Lab Within a Lab </p> <br>
-					<p style="font-size: 20px;line-height: 2em"> The Mobile Lab is housed in FIL and spearheads SCU's participation in the explosive field of mobile health, money,
-					agriculture, and a plethora of other application areas that address various human needs around the world.  This "lab within a lab" provides
-					an environment for students to evaluate technology solutions used in the field, and enables the development of a comprehensive set of mobile
-					applications for underserves communities that have limited access to life sustaining resources. </p>
-					
-					<p style="font-size: 20px; line-height: 2em"> Cellular phones are bringing computing to under-served communities.  As people in these communities across the globe
-					lack access to information, but do own cellular phones, apps are filling the gap by delivering meaningful information to improve lives.  The Frugal Innovation
-					Lab at Santa Clara University has been collaborating with local and international partners to make cellular phones work for different communities. </p>
-					
-					<p style="font-size: 20px; line-height: 2em"> For example, FIL students joined forces with social enterprise SalUno to provide improved means for diagnosing cataracts in patients living in remote
-					areas of Mexico, eliminating the need to travel long distances to the nearest urban health center for prognosis by an eye doctor.  The FIL team developed a 
-					concept for SalUno to integrate an MIT-produced device called CATRA, which can be assembled for less than two dollars and attached to a smartphone to scan the eye and 
-					map cataract locations via an interactive app.  </p>
-					<br><br>
-					<p style="font-size: 30px; color: #FF4D4D">   Mobile for Humanity - Cisco Project Website Launched! </p>
-					<br><br>
-					<p style="font-size: 20px; line-height: 2em"> Mobile for Humanity (M4H) is a program developed and executed by the Frugal Innovation Lab (FIL) and the Global Social Benefit Institute (GSBI) at Santa Clara University
-					to design and implement mobile solutions with social enterprises to improve their operational efficiency and scale their impact.  The program is composed of five modules that help to diagnose need areas in a social 
-					enterprise that could be addressed by the integration of mobile devices, identify the appropriate mobile technologies to alleviate the need, and develop the chosen solution with a comprehensive adoption plan.
-					</p>
-					<p style="font-size: 20px; line-height: 2em"> M4H was piloted as an interactive course with mentors, University faculty, and staff administrators guiding each participating enterprise through each module and deliverable.  The modules have now been
-					packaged in such a way that allows for enterprises to move independently through the material, as it is seen presented on this site; this open source format encourages increased reach and impat of the material.  Some resources 
-					included on this site, such as the webinar recordings, will have references to the previous format - please note that this will not impact the utility of the materials.  
-				</div>
-
-		
-		
-		
-		
-		
 		</div>
-				
-				</body>
-				</html>
+	</div>
+
+
+<!-- 	<div id="nav" class="nav">
+
+		<ul> 
+			<li><a href="index.html">Home &nbsp;&nbsp;&nbsp; </a></li>
+			<li><a href="index.html#aboutWrapper">About Us &nbsp;&nbsp;&nbsp; </a></li>
+			<li><a href="index.html">Homelessness &nbsp;&nbsp;&nbsp; </a></li>
+			<li><a href="index.html#aboutMeWrapper">Our Projects &nbsp;&nbsp;&nbsp; </a></li>
+			<li><a href="index.html#experience">Opportunities&nbsp;&nbsp; &nbsp;</a></li>
+			<li><a href="index2.html#experience">Meet The Team&nbsp;&nbsp; &nbsp;</a> </li>
+			<li><a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">Contact Us</a></li>
+		</ul>
+	</div>
+ -->
+	<div id="aboutPage"> </div>
+</br>
+	<div id="oppPage"> </div>
+</br>
+	<div id="meetPage"> </div>
+</body>
+</html>

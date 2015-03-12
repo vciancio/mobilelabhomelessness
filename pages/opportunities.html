@@ -1,108 +1,90 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Mobile Lab: Homelessness</title>
-		<link rel="stylesheet" type="text/css" href="opportunities.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script>
-		</script>
-	</head>
-	<body> 
-	
-	<script src="scroll.js">
-	</script>
-	
-		<div id="wrapper">	
-			
-				<div class="nav" id="nav">
+<div id="wrapper">				
+	<div id="OppWrapper">
+		<div id="experience">Opportunities at the Mobile Lab</div>
+		<br/><br/>
+		<div id="col1">
+			<p style="font-size: 32px;text-align: center">Potential Partner
+			</p>
+			<br/><br/>
+			<img src="CTALogo.jpg" alt="Placeholder">
+			<br/><br/>
+			<p>We are constantly looking for organizations to partner with. 
+				If you would like to partner with the Mobile Lab, please leave the 
+				name of your organization and contact information.
+			</p>
+			<br/><br/>
+			<div class="form">
+				<input type="text" name="org" placeholder="Organization"><br/>
+				<input type="text" name="org-contact" placeholder="Email"><br/>
+				<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea><br/>
+				<form method="link" action="confirmation.html"><input type="submit" value="Submit" /></form>
+			</div>
+		</div>
+		<div id="col2">
+			<p style="font-size: 32px;text-align: center">Volunteers</p>
+			<br/><br/>
+			<img src="VolImage2.png" alt="Placeholder">
+			<br/><br/>
+			<p>If you would like to receive information regarding volunteer opportunities, please leave your contact information.
+				You will be notified of opportunities that you may be interested in that are in your area.
+			</p>
+			<br/><br/>
+			<div class="form">
+				<input type="text" name="vol-name" placeholder="Name"><br/>
+				<input type="text" name="vol-email" placeholder="Email"><br/>
+				<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea>
+				<br/>
+				<form method="link" action="confirmation.html">
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+		</div>
+		<div id="col3">
+			<p style="font-size: 32px;text-align: center">Seeking Services</p>
+			<br/><br/>
+			<img src="OppImage1.png" alt="Placeholder">
+			<br/><br/>
+			<p>If you would like to receive information 
+				regarding available resources, please leave your contact information. 
+				You will receive notifications about nearby services that you may find useful
+			</p>
+			<br/><br/>
+			<div class="form">
+				<input type="text" name="hl-name" placeholder="Name"><br/>
+				<input type="text" name="pnumber" placeholder="Phone Number"><br/>
+				<input type="text" name="hl-email" placeholder="Email"><br/>
+				<form method="link" action="confirmation.html">
+					<input type="submit" value="Submit" />
+				</form>
+			</div>
+		</div>
 
-						<ul> 
-							<li><a href="index.html">Home &nbsp;&nbsp;&nbsp; </a></li>
-							<li><a href="index.html#aboutMeWrapper">About Us &nbsp;&nbsp;&nbsp; </a>
-							<li><a href="index.html">Homelessness &nbsp;&nbsp;&nbsp; </a></li>
-							<li><a href="index.html#aboutMeWrapper">Our Projects &nbsp;&nbsp;&nbsp; </a>
-							<li><a href="index.html#experience">Opportunities&nbsp;&nbsp; &nbsp;</a></li>
-							<li><a href="index.html#experience">Meet The Team&nbsp;&nbsp; &nbsp;</a> </li>
-							<li><a href="#" onclick="return false;" onmousedown="autoScrollTo('div4');">Contact Us</a></li>
-						</ul>
-
-				</div>
-				
-				<div id="OppWrapper">
-					<div id="experience">Opportunities at the Mobile Lab</div>
-					<br/><br/>
-					<div id="col1">
-						<p style="font-size: 32px;text-align: center">Potential Partner</p>
-						<br/><br/>
-						<img src="CTALogo.jpg" alt="Placeholder">
-						<br/><br/>
-						<p>We are constantly looking for organizations to partner with. 
-						If you would like to partner with the Mobile Lab, please leave the 
-						name of your organization and contact information.</p>
-						<br/><br/>
-						<div class="form">
-							<input type="text" name="org" placeholder="Organization"><br/>
-							<input type="text" name="org-contact" placeholder="Email"><br/>
-							<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea><br/>
-							<form method="link" action="confirmation.html"><input type="submit" value="Submit" /></form>
-						</div>
-					</div>
-					<div id="col2">
-						<p style="font-size: 32px;text-align: center">Volunteers</p>
-						<br/><br/>
-						<img src="VolImage2.png" alt="Placeholder">
-						<br/><br/>
-						<p>If you would like to receive information regarding volunteer opportunities, please leave your contact information.
-						You will be notified of opportunities that you may be interested in that are in your area.</p>
-						<br/><br/>
-						<div class="form">
-							<input type="text" name="vol-name" placeholder="Name"><br/>
-							<input type="text" name="vol-email" placeholder="Email"><br/>
-							<textarea name="proj-interest" placeholder="Project(s) interested in being a part of"></textarea><br/>
-							<form method="link" action="confirmation.html"><input type="submit" value="Submit" /></form>
-						</div>
-					</div>
-					<div id="col3">
-						<p style="font-size: 32px;text-align: center">Seeking Services</p>
-						<br/><br/>
-						<img src="OppImage1.png" alt="Placeholder">
-						<br/><br/>
-						<p>If you would like to receive information 
-						regarding available resources, please leave your contact information. 
-						You will receive notifications about nearby services that you may find useful</p>
-						<br/><br/>
-						<div class="form">
-							<input type="text" name="hl-name" placeholder="Name"><br/>
-							<input type="text" name="pnumber" placeholder="Phone Number"><br/>
-							<input type="text" name="hl-email" placeholder="Email"><br/>
-							<form method="link" action="confirmation.html"><input type="submit" value="Submit" /></form>
-						</div>
-					</div>
-
-					<div id="HL-Res">
-						<br/>
-						<p style="font-size: 32px">Homeless Resources</p>
-						<br/>
-						<br/>
-						<p style="font-size: 28px">GLIDE - Free Meals DAILY</p>
-						<br/><br/>
-						<p>GLIDE provides free meals with the help of kitchen and security staff.
-						There are also volunteers that help serve food. Breakfast, lunch, and dinner
-						are served daily. The poor, homeless, and hungry are welcomed.</p>
-						<br/>
-						<a href="http://www.glide.org/page.aspx?pid=395">For More Information, Visit Their Site</a>
-						<br/><br/><br/>
-						<p style="font-size: 28px">Saint Vincent De Paul Society - MSC Shelter</p>
-						<br/><br/>
-						<p>The MSC Shelter offers a place to stay, and provides several other services, including
-						employment and education. The shelter is run by a dedicated staff along with a stable volunteer
-						group. The goal is for those who access the shelter to be able to make positive changes to
-						their lives.
-						</p>
-						<br/>
-						<a href="http://svdp-sf.org/what-we-do/msc-shelter/">For More Information, Visit Their Site</a>
-					</div>
-				</div>
-		</div>		
-	</body>
-</html>
+		<div id="HL-Res">
+			<br/>
+			<p style="font-size: 32px">Homeless Resources
+			</p>
+			<br/>
+			<br/>
+			<p style="font-size: 28px">GLIDE - Free Meals DAILY
+			</p>
+			<br/><br/>
+			<p>GLIDE provides free meals with the help of kitchen and security staff.
+				There are also volunteers that help serve food. Breakfast, lunch, and dinner
+				are served daily. The poor, homeless, and hungry are welcomed.
+			</p>
+			<br/>
+			<a href="http://www.glide.org/page.aspx?pid=395">For More Information, Visit Their Site</a>
+			<br/><br/><br/>
+			<p style="font-size: 28px">Saint Vincent De Paul Society - MSC Shelter
+			</p>
+			<br/><br/>
+			<p>The MSC Shelter offers a place to stay, and provides several other services, including
+				employment and education. The shelter is run by a dedicated staff along with a stable volunteer
+				group. The goal is for those who access the shelter to be able to make positive changes to
+				their lives.
+			</p>
+			<br/>
+			<a href="http://svdp-sf.org/what-we-do/msc-shelter/">For More Information, Visit Their Site</a>
+		</div>
+	</div>
+</div>		
