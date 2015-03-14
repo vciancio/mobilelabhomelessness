@@ -88,51 +88,6 @@ p{
 }
 
 
-/**********horizontal nav bar***************/
-#nav {
-	top: 0;
-	font-size: 16px;
-	width: 100%;
-	height: 65px;
-	background: rgba(255,71,71,.85);
-	line-height: 55px; 
-	margin-bottom: 5%;
-	}
-
-
-#nav ul {
-	list-style-type: none;
-	padding: 0;
-	z-index: 777;
-	margin-left: 33%;
-}
-
-#nav ul li {
-	display: inline-block;
-	margin-left: 10px;
-	
-}
-
-
-
-#nav ul li a,visited {
-	color: #ffffff;
-	display: block;
-	padding-right: 15px;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-#nav ul li a:hover {
-	color: black;
-	text-decoration: none;
-	z-index: 500;
-
-}
-
-
-/*********end of horizontal nav bar ******************/
-
 /**************ABOUT US******************/
 
 .aboutUsPics {
@@ -235,12 +190,6 @@ textarea {
 	height: 45%;
 	margin: 0 auto;
 	border-radius: 5px;
-}
-
-/*Javascript*/
-
-.nav-padding {
-    /*padding-top: 40px;*/
 }
 
 .sticky {
