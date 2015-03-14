@@ -199,3 +199,8 @@ textarea {
 
 /*********end opp page***********/
 
+.navbar-inverse .container-fluid{
+  color: #FFFFFF ;
+  background-color: #FF4D4D 
+}
+
