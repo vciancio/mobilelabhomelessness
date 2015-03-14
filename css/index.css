@@ -32,6 +32,11 @@ html, body {
         padding-top: 10%;
 }
 
+.mainPageText a:hover {
+		text-decoration: none;
+		color: orange;
+}
+
 .mainPageRow{
         padding-bottom: 10%;
 }
